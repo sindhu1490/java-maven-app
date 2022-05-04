@@ -7,6 +7,7 @@ pipeline {
 				sh '''
 					echo "multi line"
 					 ls -lrt
+				'''
 				
 			}
 		}
