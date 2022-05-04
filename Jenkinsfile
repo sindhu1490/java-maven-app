@@ -1,11 +1,12 @@
 pipeline {
 	agent any 
 	stages {
-		stage('Build') {
+		stage("Build") {
 			steps {
 				sh 'echo test'
 				sh '''
-					echo "multi line" ls -lrt
+					echo "multi line"
+					 ls -lrt
 				
 			}
 		}
